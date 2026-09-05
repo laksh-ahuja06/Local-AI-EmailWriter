@@ -1,16 +1,6 @@
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
-# # Load tokenizer
-# tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
-
-# # Load model
-# model = AutoModelForCausalLM.from_pretrained(
-#     MODEL_NAME,
-#     torch_dtype=torch.bfloat16 if torch.cuda.is_available() else torch.float32,
-#     device_map="auto"
-# )
-
 MODEL = "Qwen/Qwen2.5-1.5B"
 
 dtype = (
@@ -43,10 +33,9 @@ def run_model(prompt, tone):
     - Do not include explanations, notes, or markdown.
     - End with a suitable closing followed by the sender's name.
     - Stop after the sender's name.
-    User request:
-    {prompt}
-    Tone:
-    {tone}
+
+    User request: {prompt}
+    Tone: {tone}
     """
 
     print(finalPrompt)
