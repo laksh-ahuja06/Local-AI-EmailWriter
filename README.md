@@ -1,8 +1,9 @@
 # ✉️ AI Email Writer
 
 An AI-powered email generation web application that helps users quickly create professional, well-structured emails using artificial intelligence.
-
 The application is built with a **React.js frontend** and a **FastAPI backend**, providing a clean user interface and a REST API for email generation.
+The main selling point of this project is the usage of the local AI model for writing well structured E-Mails. For this project, Qwen-2.5-1,5B-Instruct 
+HuggingFace AI Model is used.
 
 ## 🚀 Features
 
@@ -16,27 +17,21 @@ The application is built with a **React.js frontend** and a **FastAPI backend**,
 
 ## 🛠️ Tech Stack
 
-### Frontend
-
 * React.js
 * JavaScript
 * HTML/CSS
-
-### Backend
-
 * Python
 * FastAPI
 * Uvicorn
-
-### API
-
-* REST API
+* HuggingFace Spaces
+* Vercel
 
 ## 📁 Project Structure
 
-```python
-
-```
+<p align="center">
+  <img src="backend_tree.svg" alt="backend_tree" width="300">
+   <img src="frontend_tree.svg" alt="frontend_tree" width="300">
+</p>
 
 ## ⚙️ Installation & Setup
 
@@ -110,26 +105,9 @@ http://localhost:5173
 
 The application follows a simple request flow:
 
-```text
-User
-  │
-  ▼
-React.js Frontend
-  │
-  │  API Request
-  ▼
-FastAPI Backend
-  │
-  │  AI Processing
-  ▼
-AI Model / Service
-  │
-  ▼
-Generated Email
-  │
-  ▼
-React.js Frontend
-```
+<p align="center">
+  <img src="pipeline_boxed.svg" alt="pipeline" width="400">
+</p>
 
 1. The user enters a prompt or describes the email they want to write.
 2. The React frontend sends the request to the FastAPI backend.
@@ -188,10 +166,8 @@ Changes made to the frontend or backend will be reflected during development thr
 
 ## 🤝 Contributing
 
-Contributions are welcome!
-
-1. Fork the repository.
-2. Create a new branch:
+1. Contributions are welcomed! First fork the repository.
+2. Then, create a new branch:
 
 ```bash
 git checkout -b feature/your-feature
@@ -212,14 +188,3 @@ git push origin feature/your-feature
 
 6. Open a Pull Request.
 
-## 📄 License
-
-This project is available for educational and personal use. If you intend to distribute or modify the project, please add an appropriate license to the repository.
-
-## 👨‍💻 Author
-
-**Laksh Ahuja**
-
-GitHub: [laksh-ahuja06](https://github.com/laksh-ahuja06)
-
----
