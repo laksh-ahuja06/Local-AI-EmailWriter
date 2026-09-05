@@ -4,7 +4,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from transformers import AutoModelForSequenceClassification, AutoTokenizer
 
-import AICalling
+import Qwen
 
 app = FastAPI()
 
@@ -23,7 +23,7 @@ app.add_middleware(
 @app.on_event("startup")
 async def startup():
     print("Loading model...")
-    AICalling.load_model()
+    Qwen.load_model()
     print("Ready!")
 
 
@@ -42,7 +42,7 @@ def predict(data: UserData):
     try:
         print(data.prompt)
         print(data.tone)
-        result = AICalling.run_model(data.prompt, data.tone)
+        result = Qwen.run_model(data.prompt, data.tone)
         return {result}
     except Exception as e:
         import traceback
