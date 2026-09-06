@@ -1,11 +1,11 @@
-# ✉️ AI Email Writer
+# ✉️ Local Model AI Email Writer
 
 An AI-powered email generation web application that helps users quickly create professional, well-structured emails using artificial intelligence.
 The application is built with a **React.js frontend** and a **FastAPI backend**, providing a clean user interface and a REST API for email generation.
-The main selling point of this project is the usage of the local AI model for writing well structured E-Mails. For this project, Qwen-2.5-1,5B-Instruct 
+The main selling point of this project is the usage of the local AI model for writing well structured E-Mails. For this project, Qwen-2.5-1.5B-Instruct 
 HuggingFace AI Model is used.
 
-## 🚀 Features
+## Features:
 
 * ✨ Generate professional emails using AI
 * 📝 Create emails based on a simple prompt
@@ -14,8 +14,9 @@ HuggingFace AI Model is used.
 * 🔗 Seamless frontend-backend integration
 * 🐍 Python-based backend
 * 💻 Modern JavaScript frontend
+* 📦 Deployed in Vercel and HuggingFace spaces
 
-## 🛠️ Tech Stack
+## Tech Stack:
 
 * React.js
 * JavaScript
@@ -26,14 +27,14 @@ HuggingFace AI Model is used.
 * HuggingFace Spaces
 * Vercel
 
-## 📁 Project Structure
+## Project Structure:
 
 <p align="center">
   <img src="backend_tree.svg" alt="backend_tree" width="300">
    <img src="frontend_tree.svg" alt="frontend_tree" width="300">
 </p>
 
-## ⚙️ Installation & Setup
+## Installation & Setup:
 
 ### 1. Clone the Repository
 
@@ -48,30 +49,13 @@ Navigate to the backend directory:
 
 ```bash
 cd backend
-```
-
-Install the required Python dependencies:
-
-```bash
 pip install -r requirements.txt
-```
-
-Start the FastAPI development server:
-
-```bash
 uvicorn main:app --reload
 ```
 
+```text
 The backend will typically be available at:
-
-```text
 http://127.0.0.1:8000
-```
-
-FastAPI also provides interactive API documentation at:
-
-```text
-http://127.0.0.1:8000/docs
 ```
 
 ### 3. Set Up the Frontend
@@ -80,28 +64,17 @@ Open a new terminal and navigate to the frontend directory:
 
 ```bash
 cd frontend
-```
-
-Install the required npm packages:
-
-```bash
 npm install
-```
-
-Start the development server:
-
-```bash
 npm run dev
 ```
 
-The frontend will be available at the URL displayed in your terminal, typically:
-
 ```text
+The frontend will be available at the URL displayed in your terminal, typically:
 http://localhost:5173
 ```
 
 
-## 💡 How It Works
+## How It Works
 
 The application follows a simple request flow:
 
@@ -115,7 +88,7 @@ The application follows a simple request flow:
 4. The generated email is returned through the REST API.
 5. The frontend displays the generated email to the user.
 
-## 🔌 API
+## API:
 
 The backend is powered by FastAPI and exposes REST API endpoints for communicating with the frontend.
 
@@ -133,7 +106,7 @@ http://127.0.0.1:8000/redoc
 
 > The exact API endpoints depend on the implementation in `backend/main.py`.
 
-## 🖥️ Usage
+## Usage:
 
 After starting both the backend and frontend:
 
@@ -144,7 +117,7 @@ After starting both the backend and frontend:
 5. Review the AI-generated email.
 6. Copy or use the generated email as needed.
 
-## 🧪 Development
+## Development:
 
 For local development, run the backend and frontend in separate terminals.
 
