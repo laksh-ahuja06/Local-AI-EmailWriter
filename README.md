@@ -13,14 +13,14 @@ HuggingFace AI Model is used. The link for the HuggingFace space is as follows:
 
 ## Features:
 
-* ✨ Generate professional emails using AI
-* 📝 Create emails based on a simple prompt
-* 🎨 Clean and responsive React.js interface
-* ⚡ FastAPI backend with REST API
-* 🔗 Seamless frontend-backend integration
-* 🐍 Python-based backend
-* 💻 Modern JavaScript frontend
-* 📦 Deployed in Vercel and HuggingFace spaces
+*  Generate professional emails using AI
+*  Create emails based on a simple prompt
+*  Clean and responsive React.js interface
+*  FastAPI backend with REST API
+*  Seamless frontend-backend integration
+*  Python-based backend
+*  Modern JavaScript frontend
+*  Deployed in Vercel and HuggingFace spaces
 
 ## Tech Stack:
 
@@ -34,10 +34,12 @@ HuggingFace AI Model is used. The link for the HuggingFace space is as follows:
 
 ## Project Structure:
 
+
 <p align="center">
   <img src="backend_tree.svg" alt="backend_tree" width="300">
    <img src="frontend_tree.svg" alt="frontend_tree" width="300">
 </p>
+
 
 ## Installation & Setup:
 
@@ -79,7 +81,7 @@ http://localhost:5173
 ```
 
 
-## How It Works
+## How It Works:
 
 The application follows a simple request flow:
 
@@ -92,24 +94,6 @@ The application follows a simple request flow:
 3. The backend processes the request and communicates with the AI service.
 4. The generated email is returned through the REST API.
 5. The frontend displays the generated email to the user.
-
-## API:
-
-The backend is powered by FastAPI and exposes REST API endpoints for communicating with the frontend.
-
-Once the backend is running, you can explore the available endpoints using the automatically generated Swagger documentation:
-
-```text
-http://127.0.0.1:8000/docs
-```
-
-You can also view the ReDoc documentation at:
-
-```text
-http://127.0.0.1:8000/redoc
-```
-
-> The exact API endpoints depend on the implementation in `backend/main.py`.
 
 ## Usage:
 
@@ -142,7 +126,7 @@ npm run dev
 
 Changes made to the frontend or backend will be reflected during development through the respective development servers.
 
-## 🤝 Contributing
+## 🤝 Contributing:
 
 1. Contributions are welcomed! First fork the repository.
 2. Then, create a new branch:
