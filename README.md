@@ -3,9 +3,13 @@
 An AI-powered email generation web application that helps users quickly create professional, well-structured emails using artificial intelligence.
 The application is built with a **React.js frontend** and a **FastAPI backend**, providing a clean user interface and a REST API for email generation.
 The main selling point of this project is the usage of the local AI model for writing well structured E-Mails. For this project, Qwen-2.5-1.5B-Instruct 
-HuggingFace AI Model is used.
+HuggingFace AI Model is used. The link for the HuggingFace space is as follows:
 
-<b> Deployed space link - </b> https://huggingface.co/spaces/Lkkash/AI-Email-Writer
+<p align="center">
+<a href="https://huggingface.co/spaces/Lkkash/AI-Email-Writer">
+  <img src="https://img.shields.io/badge/%20LIVE%20DEMO-Try%20AI%20Email%20Writer-blue?style=for-the-badge" alt="Try AI Email Writer">
+</a>
+</p>
 
 ## Features:
 
