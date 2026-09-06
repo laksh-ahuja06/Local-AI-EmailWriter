@@ -5,5 +5,5 @@ import tailwind from "@tailwindcss/vite";
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [react(), babel({ presets: [reactCompilerPreset()] }), tailwind()],
+  plugins: [react(), babel({ presets: [reactCompilerPreset()] }), tailwind(), base: process.env.VIT_BASE_PATH || "/Local-AI-EmailWriter"],
 });
