@@ -31,7 +31,6 @@ HuggingFace AI Model is used. The link for the HuggingFace space is as follows:
 * FastAPI
 * Uvicorn
 * HuggingFace Spaces
-* Vercel
 
 ## Project Structure:
 
