@@ -5,6 +5,8 @@ The application is built with a **React.js frontend** and a **FastAPI backend**,
 The main selling point of this project is the usage of the local AI model for writing well structured E-Mails. For this project, Qwen-2.5-1.5B-Instruct 
 HuggingFace AI Model is used.
 
+<b> Deployed space link - </b> https://huggingface.co/spaces/Lkkash/AI-Email-Writer
+
 ## Features:
 
 * ✨ Generate professional emails using AI
